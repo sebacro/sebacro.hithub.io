@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="estilo.css">
+  
+</head>
+
+<body>
+ <div id="contenedor">
+    <div id="header">
+        <a href="https://th.bing.com/th/id/OIP.a6adMDPxS9Ww3lael87tuwHaE7?w=
+        245&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7">
+        <img src="https://th.bing.com/th/id/OIP.a6adMDPxS9Ww3lael87tuwHaE7?w=
+         245&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="foto-del-programador"></a>
+             <h1 id="nombre">Sebastián Croce</h1>
+             <h3 id="descripcion">Programador web</h3>
+
+
+             <p>Contacto: </p>
+
+    <select id="mySelect" onchange="myFunction()">
+        <option value="@haycosaspeores">Twitter</option>
+        <option value="@nolocreo">Instagram</option>
+        <option value="Cel: 11-5656-6565">Movil</option>
+        <option value="ejemplo@miemail.com">E-mail</option>
+    </select>
+
+<p id="demo"></p>
+<script>
+    function myFunction() {
+      var x = document.getElementById("mySelect").value;
+      document.getElementById("demo").innerHTML = "Contactame por: " + x;
+    }
+    </script>
+
+    </div>
+        <div id="central">
+            
+            <div id="principal">
+
+                <h2>Experiencia</h2>
+                <nav>
+                    <ul>
+                        <li>Desarrollo de aplicaciones web: <a rel="noopener" href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a></li>
+                        <li>Mantenimiento de sitios web. <a rel="noopener" href="https://es.wikipedia.org/wiki/GitHub" target="_blank">GitHub</a></li>
+                        <li>Maquetación <a rel="noopener" href="https://es.wikipedia.org/wiki/HTML5" target="_blank">HTML5</a>,<a rel="noopener" href="https://es.wikipedia.org/wiki/CSS" target="_blank">CSS3</a>,<a rel="noopener" href="https://es.wikipedia.org/wiki/Bootstrap_(framework)" target="_blank">Bootstrap</a></li>
+                        <li>Manejo de datos <a rel="noopener" href="https://es.wikipedia.org/wiki/JSON" target="_blank">JSON</a></li>
+        
+                    </ul>
+                </nav>
+
+            </div>
+            <div id="barra-lateral"><h2>Formación</h2>
+                <ul>
+                    <li>Estudios secundarios completos en
+                        <em>CENS454</em> Lomas de Zamora</li>
+                    <li>Primer año cursado en la
+                        carrera de Analista de Sistemas <em>Itfs 11</em></li>
+                    <li>Actuelmente cursando <em>"Argentina Programa"</em></li>
+                </ul></div>
+        </div>
+    <div id="footer">
+        <nav>
+            <h2>Contactame</h2>
+
+            <button type="button"><a href="mailto:someone@example.com">E-mail</a></button>
+                <a href="sobremi.html"target="_blank">Sobre mi</a>
+                <a href="sobremi.html"target="_blank">Mis datos</a>
+                <a href="sobremi.html"target="_blank">Teléfono</a>
+                <a href="sobremi.html"target="_blank">Idiomas</a>
+                <a href="sobremi.html"target="_blank">Localidad</a>
+            
+        </nav>
+    </div>
+ </div>
+
+</body>
+</html>

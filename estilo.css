@@ -1,0 +1,161 @@
+*{
+  margin: 1px;
+  padding: 1px;
+  border-radius: 1%;
+}
+  @media (max-width: 830px){
+    #central{
+      flex-direction: column;
+    }  
+  }
+
+#contenedor{
+  width: 99%;
+  height: 570px;
+  background-color: rgb(94, 149, 76);
+  margin: 1px;
+  padding: 1px;
+  border-radius: 1%;
+  justify-content: center;
+  font: 1em sans-serif;
+}
+
+#header{
+  width: 99%;
+  height: 30%;
+  background-color: rgb(140, 166, 132);
+  margin: 2px;
+  padding: 2px;
+  border-radius: 1%;
+  justify-content: center;
+
+}
+
+#central{
+  width: 100%;
+  height: 48%;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 1%;
+
+}
+#principal{
+  width: 50%;
+  height: 97%;
+  background-color: white;
+  border-radius: 1%;
+  float: left;
+  margin: 1px;
+  padding: 1px;
+}
+
+#barra-lateral{
+  width: 48%;
+  height: 94%;
+  float: right;
+  background-color: white;
+  border-radius: 1%;
+  margin: 1px;
+  padding: 5px;
+}
+
+#footer{
+  width: 99%;
+  height: 19%;
+  background-color: white;
+  margin: 3px;
+  padding: 1px;
+  border-radius: 1%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+img{
+  width: 20%;
+  height: 95%;
+  border-radius: 50%;
+  margin: 2px;
+  left: 20px;
+}
+
+h1{
+  width: 70%;
+  float: right;
+  font-size: 50px;
+  color: black;
+  border: 2px;
+}
+
+h2{
+  width: 50%;
+  font-size: 35px;
+  color:black;
+  margin: 5px;
+  padding: 5px;
+}
+
+li{
+  color: black;
+  margin: 20px;
+}
+
+a{
+  color: rgb(123, 123, 248);
+}
+a:hover{
+  color: aquamarine;
+}
+em{
+  color: rgb(94, 149, 76);
+}
+#nombre{
+  padding: 30px;
+  position: absolute;
+  left: 200px;
+  top: 30px;
+}
+#descripcion{
+  color: black;
+  font-size: 25px;
+  left: 250px;
+  position: absolute;
+  top:120px
+  
+}
+#mySelect{
+  float: right;
+  position:absolute;
+  top: 120px;
+  right: 30px;
+}
+p{
+  float: right;
+  position:absolute;
+  top: 120px;
+  right: 120px;
+}
+
+#demo{
+  float: right;
+  position:absolute;
+  top: 150px;
+  right: 30px;
+}
+
+#footer h2{
+  float: right;
+  position:absolute;
+  top: 500px;
+  right: 220px;
+
+}
+
+button{
+  background-color: rgb(109, 165, 136);
+}
+
+button a{
+  color: black;
+}
